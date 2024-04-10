@@ -1,0 +1,15 @@
+#include <iostream>
+using namespace std;
+int main(){
+	int a = 0,b=1,n,c,i;
+	cout<<"Enter the n value :";
+	cin>>n;
+	cout<<a,b;
+	for(i=1;i<=n;i++){
+	c = a+b;
+	cout<<"\n";
+	cout<<c;
+	a=b;
+	b=c;
+	}
+}
